@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    margin-bottom: 1000px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    background-color: black;
+    color: aqua;
+    text-align: center;
+}
+#main-header{
+    background-image: url(../image/IMG_20200105_123455-01.jpeg);
+    padding: 15px;
+}
+#main-header h1{
+    padding: 15px;
+}
+#nav{
+    background:linear-gradient(45deg,pink,green,yellow);
+    padding: 15px;
+}
+#nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+
+}
+#nav a.active{
+    background:linear-gradient(45deg,rgb(205, 255, 192),rgb(55, 0, 128),rgb(255, 123, 0));
+    border-radius: 20px;
+}
+#nav a:hover{
+    background:linear-gradient(45deg,black,red,rgb(255, 123, 0));
+    border-radius: 20px;
+}
+h2{
+    color: gray;
+
+}
+footer{
+    background-color: gold;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+button{
+    background-color: aqua;
+    margin-left: 990px;
+}
+button a{
+    color: blue;
+}
+section{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}

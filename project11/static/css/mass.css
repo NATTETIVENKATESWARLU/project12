@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+h1{
+    background-color: black;
+    color: aqua;
+    text-align: center;
+}
+li{
+    background-color: yellowgreen;
+    color: whitesmoke;
+}
+li:hover{
+    background:linear-gradient(360deg, red,yellowgreen,green);
+    color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#d{
+    background-color: blueviolet;
+    color: aquamarine;
+}
